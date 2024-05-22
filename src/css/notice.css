@@ -1,0 +1,47 @@
+.notice-outer-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 40px;
+    border-bottom: 1px solid #cccccc;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+    padding: 10px 5px;
+    
+
+   
+    
+}
+
+.all-notice-container{
+    /* padding: 20px; */
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0;
+}
+.notices-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+   
+}
+
+.notice-title{
+    flex-grow: 1;
+}
+
+.notice-date, .notice-department{
+    min-width: 90px;
+}
+
+.notice-author{
+    width: 100px;
+    text-align: center;
+}
+
+.notice-author, .notice-date, .notice-department{
+    color: #cccccc;
+    font-weight: 500;
+}

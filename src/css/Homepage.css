@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EFF8F7;
+    font-family: "Poppins", sans-serif;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.app-outer-container{
+    background-color: #EFF8F7;
+    margin: 10px;
+    display: flex;
+}
+
+.left-container{
+    width: 325px;
+    height: 868px;
+    background: #00585E;
+}
+
+.right-container{
+    flex-grow: 1;
+}
+
+.all-notice-container-menu, .important-notice-container, .department-container{
+    height: 46px;
+} 
+
+.nav-menu-container{
+    margin-top: 70px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.all-notice-container{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+
+.active{
+    background-color: #40E6AE;
+    border-left: 5px solid white;
+}
+
+.icon-container img{
+    height: 40px;
+    width: 40px;
+ 
+    
+}
+
+.user-container{
+    height: 60px ;
+    box-shadow: #00585E;
+    background-color: white;
+}
+
+.username{
+    align-content: end;
+    font-size: large;
+}
+
+.alltext-Notices{
+    display: flex;
+}
+
+.date-search-filter{
+    display: flex;
+    width: 100%;;
+    margin: 1rem 0;
+    gap: 2rem ;
+    
+}
+
+.date-filter{
+    background: white;
+    width: 100px;
+    height: 30px;
+    padding: 5px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice-box{
+    padding: 30px;
+}
+
+.search-filter{
+        background-color: #fff;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 0 15px;
+}
+
+.search-filter input{
+    border: none;
+    background-color: #fff;
+    width: 200px;
+    height: 30px;
+}
+
+
+
+
+
