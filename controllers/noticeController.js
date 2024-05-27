@@ -22,6 +22,8 @@ exports.createNotice = async (req, res) => {
   }
 };
 
+//seeing if added
+
 exports.getAllNotices = async (req, res) => {
   try {
     const notices = await Notice.find();
